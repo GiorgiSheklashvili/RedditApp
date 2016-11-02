@@ -21,11 +21,16 @@
     app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     />
 <android.support.v7.widget.RecyclerView
-    android:id="@+id/gifrecyclerView"
+    android:id="@+id/gifRecyclerView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
 </android.support.v7.widget.RecyclerView>
-
 </LinearLayout>
+    <include android:id="@+id/gif_frame"
+        layout="@layout/gif_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
 </RelativeLayout>
